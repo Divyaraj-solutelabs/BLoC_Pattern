@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return ContactsProvider(
 
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
